@@ -42,7 +42,7 @@ fun main(){
 
     // Testing search function which is also generics and has Comparable<T> upper bond constraint
     search(1) // 1 is Int and it is subtype of comparable class
-    //search(boxOne) // as the boxOne is instance of Box class and Box Class is not subtype of comparable class
+    //search(boxOne) // as the boxOne is instance of Box class and Box Class is not subtype of comparable class thus won't compile
 
 
 
