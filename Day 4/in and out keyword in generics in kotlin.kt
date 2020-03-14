@@ -66,10 +66,6 @@ class Box<T> (t: T){
         value = item
     }
 
-    fun checkType(t: T) {
-        if (t is Char)  println("it has char in it ")
-    }
-
 }
 
 
